@@ -259,7 +259,7 @@ def Main(path):
         print(str(now))
         print(state)
 
-        return e
+    return e
 
 if __name__=='__main__':
     path = FLAGS.model_dir + '\\bests.db'
