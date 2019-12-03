@@ -17,10 +17,10 @@ flags = tf.app.flags
 
 flags.DEFINE_integer('batch_size', 8, 'Batch size.')
 flags.DEFINE_integer('num_iter', 10000, 'Total training iterations')
-flags.DEFINE_string('model_dir', 'C:\\Users\\Mohammad\\PycharmProjects\\version6\\ded', 'Trained network dir')
+flags.DEFINE_string('model_dir', '/home/mohammad/', 'Trained network dir')
 flags.DEFINE_string('data_version', 'kitti2015', 'kitti2012 or kitti2015')
-flags.DEFINE_string('data_root', 'C:\\Users\\Mohammad\\Downloads\\data_scene_flow\\training', 'training dataset dir')
-flags.DEFINE_string('util_root', 'C:\\Users\\Mohammad\\Downloads\\data_scene_flow', 'Binary training files dir')
+flags.DEFINE_string('data_root', '/home/mohammad/data_scene_flow/training', 'training dataset dir')
+flags.DEFINE_string('util_root', '/home/mohammad/data_scene_flow', 'Binary training files dir')
 flags.DEFINE_string('net_type', 'win37_dep9', 'Network type: win37_dep9 pr win19_dep9')
 
 flags.DEFINE_integer('eval_size', 200, 'number of evaluation patchs per iteration')
